@@ -10,5 +10,6 @@
       ],
       "datasourceTemplate": "go"
     }
-  ]
+  ],
+  "minimumReleaseAge": "14 days"
 }
