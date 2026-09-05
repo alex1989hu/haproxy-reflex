@@ -15,7 +15,7 @@ ENV CGO_ENABLED=0 \
 # Build
 RUN <<'EOF'
 set -e
-CGO_ENABLED=0 go install -trimpath -a -ldflags "-buildid= -w -s"  github.com/cespare/reflex@v0.3.1
+CGO_ENABLED=0 go install -trimpath -a -ldflags "-buildid= -w -s"  github.com/cespare/reflex@v0.3.2
 EOF
 
 FROM gcr.io/distroless/static-debian13:debug-nonroot@sha256:9852e038f47deba221ddd825a46095bbf77d5a222cd6106424dce8299cf8a649
