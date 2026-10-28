@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:1
 
-ARG IMAGE_GOLANG=docker.io/golang:1.27.1
+ARG IMAGE_GOLANG=docker.io/golang:1.27.2
 FROM ${IMAGE_GOLANG} AS builder
 
 # To let CI driven buildx pass build arguments
